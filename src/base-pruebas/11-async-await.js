@@ -1,4 +1,4 @@
-// import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 // const getImagenPromesa = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
 // getImagenPromesa().then( console.log );
 

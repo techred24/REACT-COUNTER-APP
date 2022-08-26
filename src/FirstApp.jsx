@@ -21,5 +21,5 @@ FirstApp.propTypes = {
     title: PropTypes.string.isRequired
 }
 FirstApp.defaultProps = {
-    title: 'Untitle like interpol'
+    // title: 'Untitled like my fav band'
 }
