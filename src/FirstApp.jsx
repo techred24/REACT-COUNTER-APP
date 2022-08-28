@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 const newMessage = {
     message: 'Mensage',
     name: 'Rafael'
@@ -12,7 +13,8 @@ export function FirstApp( props ) {
                 <code>{ JSON.stringify(newMessage) }</code>
                 <div> {getMessage()} </div>
                 <p>First App</p>
-                <h2> {props.title} </h2>
+                <h2 data-testid="test-title"> {props.title} </h2>
+                <h2> {props.subtitle} </h2>
                 <h2> {props.subtitle} </h2>
                 <p> {nombre} </p>
             </>
@@ -20,6 +22,6 @@ export function FirstApp( props ) {
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired
 }
-FirstApp.defaultProps = {
-    // title: 'Untitled like my fav band'
-}
+// FirstApp.defaultProps = {
+//     title: 'Untitled like my fav band'
+// }
