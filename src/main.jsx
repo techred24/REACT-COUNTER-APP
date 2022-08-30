@@ -7,7 +7,7 @@ import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
-        {/* <CounterApp value={24}/> */}
-        <FirstApp customObj={{name:'Flubber'}} />
+        <CounterApp value={24}/>
+        {/* <FirstApp customObj={{name:'Flubber'}} /> */}
     </React.StrictMode>
 );

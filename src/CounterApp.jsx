@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 export function CounterApp({value}) {
     const [ counter, setCounter ] = useState(value);
     function handleApp(event, handler) {

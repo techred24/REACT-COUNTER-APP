@@ -8,15 +8,15 @@ const getMessage = () => 'Message from function';
 export function FirstApp( props ) {
     console.log(props, 'Properties');
     console.log(props.customObj, 'Custom Object');
-    const { name: nombre } = props.customObj;
+    // const { name: nombre } = props.customObj;
     return  <>
                 <code>{ JSON.stringify(newMessage) }</code>
                 <div> {getMessage()} </div>
                 <p>First App</p>
-                <h2 data-testid="test-title"> {props.title} </h2>
+                <h1 data-testid="test-title"> {props.title} </h1>
                 <h2> {props.subtitle} </h2>
                 <h2> {props.subtitle} </h2>
-                <p> {nombre} </p>
+                {/* <p> {nombre} </p> */}
             </>
 }
 FirstApp.propTypes = {
